@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/25eda75294.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="./css/style.css">
     <title>KRAKKEN | Inicio</title>
 </head>
@@ -25,7 +29,7 @@
         <!-- Menu de navegacion -->
         <nav class="nav">
             <a href="./index.html"><img src="./eloy/imagenn (1).png" alt="logo"></a>
-            <p><a href="./index.html">KRAKKEN</a></p>
+                <p class="animate__animated animate__pulse"><a href="./index.html">KRAKKEN</a></p>
             <ul>
                 <li>
                     <a href="./index.html">INICIO</a>
@@ -46,7 +50,7 @@
         </nav>
         <!-- Inicio del Main -->
         <section class=primeraSeccion>
-            <h2>Con tu compra de $3000 ARS o mas, tenes envio gratis!</h2>
+            <h2 class="wow animate__animated animate__flipInX">Con tu compra de $3000 ARS o mas, tenes envio gratis!</h2>
             <img src="./eloy/WhatsApp Image 2022-05-18 at 3.46.55 PM.jpeg" alt="imagen comic">
             <img src="./eloy/WhatsApp Image 2022-05-18 at 3.46.56 PM.jpeg" alt="imagen manga dragon ball">
             <img src="./eloy/WhatsApp Image 2022-05-18 at 3.46.57 PM.jpeg" alt="imagen manga tokyo">
@@ -114,6 +118,10 @@
             </div>
         </footer>
     </div>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+    </script>
 </body>
 
 </html>
