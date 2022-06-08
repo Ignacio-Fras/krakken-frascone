@@ -416,3 +416,6 @@ color: white;
     display: none;
 }
 }
+.miRama header{
+    background-image: linear-gradient(to left, rgb(70, 235, 70), aqua);
+}
