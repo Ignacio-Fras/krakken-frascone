@@ -49,9 +49,9 @@
 }
 
 .nav li {
-    width: 250px;
-    height: 20px;
-    transition: height 3s,width 2s;
+  width: 250px;
+  height: 20px;
+  transition: height 3s, width 2s;
   animation-name: cambioColor;
   animation-iteration-count: infinite;
   animation-duration: 10s;
@@ -62,8 +62,8 @@
   border-radius: 10px;
 }
 .nav li:hover {
-    width: 260px;
-    height: 30px;
+  width: 260px;
+  height: 30px;
   background-color: rgb(50, 193, 205);
   border: solid 2px black;
 }
