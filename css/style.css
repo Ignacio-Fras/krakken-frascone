@@ -130,7 +130,7 @@
 .header div {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: space-around;
   padding: 1rem;
   margin-left: 1rem;
 }
@@ -182,7 +182,7 @@
   padding: 1rem 5rem 1rem 5rem;
   margin: 1rem;
   border: solid 5px black;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .primeraSeccion p {
@@ -200,7 +200,7 @@
   grid-area: segundaSeccion;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   background-color: rgb(97, 102, 179);
   border: solid 5px black;
@@ -209,6 +209,8 @@
 }
 .segundaSeccion h2 {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 1rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -232,7 +234,7 @@
   color: black;
   max-width: 350px;
   font-size: 1.5rem;
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
   background-color: rgb(98, 230, 153);
 }
@@ -291,7 +293,7 @@
   background-color: rgb(50, 193, 205);
   border: solid 2px black;
   border-radius: 10px;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 .aside table {
   margin: 1.5rem;
@@ -471,6 +473,7 @@
     padding: 5px;
   }
   .primeraSeccion{
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
@@ -486,7 +489,7 @@
     display: flex;
     flex-wrap: wrap;
   }
-
+  
   .form {
     display: flex;
     flex-wrap: wrap;
