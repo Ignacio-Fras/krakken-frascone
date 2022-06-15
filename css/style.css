@@ -200,7 +200,7 @@
   grid-area: segundaSeccion;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   background-color: rgb(97, 102, 179);
   border: solid 5px black;
