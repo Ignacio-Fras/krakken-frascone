@@ -242,7 +242,7 @@
   background-color: rgb(84, 65, 121);
   width: 90%;
   text-align: left;
-  margin: 1rem;
+  margin-left: 1rem;
 }
 .segundaSeccion th {
   padding: 2rem;
@@ -489,7 +489,9 @@
     display: flex;
     flex-wrap: wrap;
   }
-  
+  .segundaSeccion table{
+    margin-left: 1rem;
+  }
   .form {
     display: flex;
     flex-wrap: wrap;
