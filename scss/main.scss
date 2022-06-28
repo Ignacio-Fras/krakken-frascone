@@ -6,9 +6,11 @@
   font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
   "Lucida Sans", Arial, sans-serif;
 }
+@import './variables/extend';
+@import './variables/mixins';
 
-@import './secciones/contacto';
 @import './secciones/index';
+@import './secciones/contacto';
 @import './secciones/hace-tu-pedido';
 @import './secciones/productos';
 @import './secciones/quienes-somos';

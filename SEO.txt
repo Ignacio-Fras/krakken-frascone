@@ -1,0 +1,4 @@
+1. Agregado de meta keywords en todas las paginas html
+2. Agregado de meta description en cada pagina html
+3.Se acomodo el title permitiendo que el usuario sepa donde esta ubicado con el "| inicio" (por ejemplo)
+4. Se verifico que haya un h1 en cada pagina 

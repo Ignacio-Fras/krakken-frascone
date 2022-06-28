@@ -1,0 +1,9 @@
+@mixin estilosIndex($colorFondo, $colorLetra){
+    background-color: $colorFondo;
+    color: $colorLetra;
+}
+
+@mixin estiloSeccion($colorFondo, $colorLetra){
+    background-color: $colorFondo;
+    color: $colorLetra;
+}
