@@ -14,7 +14,7 @@
   border-radius: 10px;
   font-size: 2.5rem; }
 
-.primeraSeccion h2, .primeraSeccion p, .segundaSeccion {
+.segundaSeccion {
   border: solid 5px black;
   border-radius: 10px;
   margin: 1rem; }
@@ -121,16 +121,6 @@
     transform: scale(0.8, 1);
     display: flex;
     padding: 1rem; }
-  .primeraSeccion h2 {
-    font-size: 1.5rem;
-    background-image: linear-gradient(to bottom, aqua, #2a5961);
-    padding: 1rem 5rem 1rem 5rem; }
-  .primeraSeccion p {
-    max-width: 550px;
-    text-align: center;
-    padding: 1rem 5rem 2rem 5rem;
-    background-color: #62e699;
-    color: black; }
 
 .segundaSeccion {
   grid-area: segundaSeccion;
@@ -139,14 +129,6 @@
   flex-direction: row;
   justify-content: space-around;
   background-color: #6166b3; }
-  .segundaSeccion h2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 1rem;
-    margin: 1rem;
-    font-size: 1.5rem;
-    text-align: center; }
   .segundaSeccion div {
     display: flex;
     justify-content: space-evenly;
@@ -158,24 +140,6 @@
     justify-content: center;
     max-width: 350px;
     padding: 1rem; }
-  .segundaSeccion h3 {
-    background-color: #62e699;
-    color: black;
-    border: solid 2px black;
-    max-width: 350px;
-    font-size: 1.5rem;
-    padding: 2rem;
-    text-align: center; }
-  .segundaSeccion table {
-    background-color: #544179;
-    width: 90%;
-    text-align: left;
-    margin-left: 1rem; }
-  .segundaSeccion th {
-    padding: 2rem; }
-  .segundaSeccion td {
-    background-color: #32c1cd;
-    padding: 2rem; }
 
 .aside {
   background-image: linear-gradient(to top, #6166ff, #8356df, #8144bb);
@@ -187,13 +151,11 @@
   margin-left: 1rem;
   text-align: center; }
   .aside h2 {
-    background-color: #6166b3;
     font-size: 1rem;
     padding: 1rem;
     border-radius: 10px;
     margin: 1rem; }
   .aside ul {
-    background-color: #6166b3;
     padding: 1rem;
     margin: 1rem; }
   .aside li {
@@ -233,6 +195,8 @@
     margin: 1rem; }
   .form div {
     width: 600px;
+    border: solid 2px black;
+    border-radius: 10px;
     background-image: linear-gradient(to bottom, #8587e9, #60eaf7);
     display: flex;
     align-items: center;
@@ -243,8 +207,7 @@
   .form input {
     width: 300px;
     height: 30px;
-    border-radius: 15px;
-    background-color: #7bffe2;
+    background-color: #feffff;
     text-align: center;
     margin: 1rem;
     padding-left: 1rem; }
@@ -320,6 +283,28 @@
     background-color: #c088f5;
     border-radius: 10px;
     padding: 1rem; }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #9e56f0;
+  border: solid 3px black;
+  border-radius: 10px;
+  margin: 1rem; }
+  .card p {
+    background-color: #6c57e6;
+    padding: 1rem;
+    margin: 1rem; }
+  .card h2 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #c07bf8; }
+
+.segundaSeccion {
+  background-color: #9435ec;
+  padding: 1rem; }
 
 .grilla {
   display: grid;

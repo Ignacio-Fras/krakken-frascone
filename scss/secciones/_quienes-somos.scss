@@ -1,0 +1,27 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(158, 86, 240);
+    border: solid 3px black;
+    border-radius: 10px;
+    margin:1rem;
+    p{
+        background-color: rgb(108, 87, 230);
+        padding: 1rem;
+        margin:1rem;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        margin: 1rem;
+        background-color: rgb(192, 123, 248);
+    }
+}
+
+.segundaSeccion{
+    background-color: rgb(148, 53, 236);
+    padding: 1rem;
+    
+
+}
