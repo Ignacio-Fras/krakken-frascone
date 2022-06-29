@@ -286,6 +286,46 @@
     .footer i:hover {
       color: white; }
 
+.segundaSeccion {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; }
+  .segundaSeccion .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    background-color: #9563ce;
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem; }
+  .segundaSeccion span {
+    display: grid; }
+  .segundaSeccion img {
+    max-width: 200px; }
+  .segundaSeccion button {
+    background-color: #d5a6f0;
+    padding: 1rem;
+    margin: 1rem;
+    border: solid 2px black;
+    border-radius: 10px; }
+    .segundaSeccion button:hover {
+      background-color: #937fda;
+      padding: 1.5rem; }
+  .segundaSeccion .tituloProductos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to top, #7416b3, #ebb8b8);
+    border: solid 2px black;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 10px; }
+  .segundaSeccion .precio {
+    background-color: #c088f5;
+    border-radius: 10px;
+    padding: 1rem; }
+
 .grilla {
   display: grid;
   grid-template-columns: 1fr 2.5fr 2.5fr 1fr;
