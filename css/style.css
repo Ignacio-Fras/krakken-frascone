@@ -158,13 +158,16 @@
   margin-left: 1rem;
   text-align: center; }
   .aside h2 {
-    font-size: 1rem;
+    font-size: 30px;
     padding: 1rem;
     border-radius: 10px;
-    margin: 1rem; }
+    margin: 1rem;
+    background-color: #2f6f8d; }
   .aside ul {
+    background-color: #a44bf7;
     padding: 1rem;
-    margin: 1rem; }
+    margin: 1rem;
+    border-radius: 10px; }
   .aside li {
     border-radius: 10px;
     border: solid 2px black;
@@ -175,7 +178,7 @@
     .aside li a {
       color: white; }
     .aside li:hover {
-      background-color: #32c1cd;
+      background-color: #5f16e7;
       border: solid 2px black;
       border-radius: 10px;
       padding: 1rem; }
@@ -247,20 +250,27 @@
 .segundaSeccion {
   display: flex;
   flex-direction: row;
-  align-items: flex-start; }
+  align-items: center; }
   .segundaSeccion .card {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-content: space-around;
     align-items: center;
-    background-color: #9563ce;
+    background-color: #7b60c7;
     border: solid 3px black;
     border-radius: 10px;
     margin: 1rem;
     padding: 1rem; }
+  .segundaSeccion div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch; }
   .segundaSeccion span {
-    display: grid; }
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
   .segundaSeccion img {
     max-width: 200px; }
   .segundaSeccion button {
@@ -278,10 +288,10 @@
     border: solid 2px black;
     margin: 1rem;
     padding: 2rem;
-    border-radius: 10px; }
+    border-radius: 15px; }
   .segundaSeccion .precio {
     background-color: #c088f5;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 1rem; }
 
 .card {
@@ -363,6 +373,8 @@
     flex-wrap: wrap; }
     .header div {
       display: flex;
+      align-items: center;
+      flex-wrap: wrap;
       flex-direction: column; }
   .primeraSeccion {
     display: flex;
