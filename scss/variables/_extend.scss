@@ -12,3 +12,17 @@
     border-radius: 10px;
     margin: 1rem;
 }
+%estiloProductos{
+    background-image: linear-gradient(to top, rgb(157, 20, 248),white);
+    border: solid 2px black;
+    margin: 1rem;
+    border-radius:10px;
+}
+
+%estiloTitulos{
+    background-image: linear-gradient(to bottom, rgb(104, 46, 197),rgb(236, 176, 176));
+      padding: 1rem 2rem 1rem 2rem;
+      margin: 1rem;
+      border: solid 3px black;
+      border-radius: 10px;
+}

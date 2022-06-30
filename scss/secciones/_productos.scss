@@ -1,4 +1,8 @@
-
+.primeraSeccion{
+    h2{
+        @extend %estiloTitulos;
+    }
+}
 .segundaSeccion{
     display: flex;
     flex-direction: row;

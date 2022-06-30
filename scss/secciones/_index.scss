@@ -131,7 +131,11 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
-  
+    
+    div{
+      @extend %estiloTitulos;
+    }
+
     img {
       transform: scale(0.8, 1);
       display: flex;
@@ -139,6 +143,7 @@
     }
   
   }
+  
   .segundaSeccion{
     grid-area: segundaSeccion;
     display: flex;
@@ -214,12 +219,7 @@
     min-height: 25vh;
   
     h2 {
-      background-color: rgb(97, 102, 179);
-      border: solid 4px black;
-      border-radius: 10px;
-      padding: 1rem;
-      margin: 1rem;
-      font-size: 2rem;
+      @extend %estiloTitulos;
     }
   
     p {
