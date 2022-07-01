@@ -181,7 +181,8 @@
       background-color: #e265f3;
       border: solid 2px black;
       border-radius: 10px;
-      padding: 1rem; }
+      padding: 0.7rem;
+      margin: 0.7rem; }
 
 .form {
   grid-area: form;
