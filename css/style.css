@@ -358,7 +358,10 @@
   .form div {
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%; } }
+    max-width: 80%;
+    margin-left: 1rem; }
+  iframe {
+    max-width: 300px; } }
 
 @media (max-width: 425px) {
   .nav {
