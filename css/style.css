@@ -35,7 +35,7 @@
   .header div {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     padding: 1rem;
     margin-left: 1rem; }
   .header a {
@@ -59,51 +59,50 @@
       border: solid 3px black;
       border-radius: 10px; }
 
+.logoDesktop {
+  width: 100px;
+  display: flex; }
+
 .nav {
   background-image: linear-gradient(to bottom, #6166ff, #8356df, #6166ff);
   grid-area: nav;
   display: flex;
   flex-direction: column;
   align-items: center; }
-
-.logoDesktop {
-  width: 100px;
-  display: flex; }
-
-.nav ul {
-  margin-top: 100px;
-  width: 100%; }
-
-.nav li {
-  width: 250px;
-  height: 20px;
-  transition: height 3s, width 2s;
-  animation-name: cambioColor;
-  animation-iteration-count: infinite;
-  animation-duration: 10s;
-  list-style: none;
-  margin: 1rem;
-  padding: 10px;
-  text-align: center;
-  border-radius: 10px; }
-  .nav li:hover {
-    width: 260px;
-    height: 30px;
-    border: solid 2px black; }
-
-.nav a {
-  color: white;
-  text-decoration: none; }
-
-.nav p {
-  color: black;
-  font-size: 30px;
-  background-color: #6166b3;
-  border: solid 2px black;
-  border-radius: 10px;
-  padding: 1rem 5rem 1rem 5rem;
-  margin: 1rem;
-  transform: skewY(1deg); }
+  .nav div {
+    position: fixed;
+    margin-top: 16rem; }
+  .nav ul {
+    margin-top: 100px;
+    width: 100%; }
+  .nav li {
+    width: 250px;
+    height: 20px;
+    transition: height 3s, width 2s;
+    animation-name: cambioColor;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    list-style: none;
+    margin: 1rem;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px; }
+    .nav li:hover {
+      width: 260px;
+      height: 30px;
+      border: solid 2px black; }
+  .nav a {
+    color: white;
+    text-decoration: none; }
+  .nav p {
+    color: black;
+    font-size: 30px;
+    background-color: #6166b3;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 1rem 5rem 1rem 5rem;
+    margin: 1rem;
+    transform: skewY(1deg); }
 
 @keyframes cambioColor {
   0% {
@@ -249,6 +248,10 @@
 .mapa {
   display: flex; }
 
+.nav div {
+  position: fixed;
+  margin-top: 16rem; }
+
 .segundaSeccion {
   display: flex;
   flex-direction: row;
@@ -290,7 +293,9 @@
     border: solid 2px black;
     margin: 1rem;
     padding: 2rem;
-    border-radius: 15px; }
+    border-radius: 15px;
+    display: flex;
+    justify-content: center; }
   .segundaSeccion .precio {
     background-color: #c088f5;
     border-radius: 15px;
@@ -306,7 +311,9 @@
   .card p {
     background-color: #6c57e6;
     padding: 1rem;
-    margin: 1rem; }
+    margin: 1rem;
+    display: flex;
+    justify-content: center; }
   .card h2 {
     display: flex;
     justify-content: center;
@@ -333,6 +340,9 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center; }
+    .nav div {
+      position: sticky;
+      margin-top: 1rem; }
     .nav ul {
       display: flex;
       flex-direction: column;
@@ -367,6 +377,9 @@
   .nav {
     display: flex;
     flex-direction: column; }
+    .nav div {
+      position: sticky;
+      margin-top: 1rem; }
     .nav li {
       display: flex;
       flex-direction: column;
@@ -402,6 +415,8 @@
     flex-wrap: wrap; }
     .form div {
       display: flex;
+      padding: 2rem;
+      align-content: center;
       flex-wrap: wrap; }
   .aside {
     display: none; }
@@ -413,6 +428,9 @@
   .nav {
     display: flex;
     flex-direction: column; }
+    .nav div {
+      position: sticky;
+      margin-top: 1rem; }
   .header {
     display: flex;
     justify-content: center;

@@ -45,6 +45,10 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    div{
+        position: sticky;
+        margin-top: 1rem;
+    }
 
     ul {
       display: flex;
@@ -95,6 +99,10 @@
   .nav{
     display: flex;
     flex-direction: column;
+    div{
+      position: sticky;
+      margin-top: 1rem;
+    }
 
   li {
     display: flex;
@@ -145,6 +153,8 @@
 
     div {
       display: flex;
+      padding: 2rem;
+      align-content: center;
       flex-wrap: wrap;
     }
   }
@@ -162,6 +172,10 @@
   .nav {
     display: flex;
     flex-direction: column;
+    div{
+        position: sticky;
+        margin-top: 1rem;
+    }
   }
 
   .header {

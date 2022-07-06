@@ -1,3 +1,9 @@
+.nav{
+    div{
+        position: fixed;
+        margin-top: 16rem;
+    }
+}
 .primeraSeccion{
     h2{
         @extend %estiloTitulos;
@@ -52,6 +58,8 @@
     margin: 1rem;
     padding: 2rem;
     border-radius:15px;
+    display: flex;
+    justify-content: center;
    }
    .precio{
     background-color: rgb(192, 136, 245);
