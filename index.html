@@ -8,6 +8,12 @@
     <meta name="keywords" content="krakken, comics, anime, mangas, videojuegos">
     <meta name="description" content="Encontra los mejores comics, mangas, videojuegos y figuras en KRAKKEN, lo que vos buscas, nosotros te lo conseguimos!">
     <script src="https://kit.fontawesome.com/25eda75294.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"/>
     <link rel="icon" href="../eloy/favicon-16x16.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
@@ -18,7 +24,7 @@
     <!-- Inicio del header -->
     <div class="grilla">
         <header class="header">
-            <h1 class="wow animate__animated animate__zoomIn">Bienvenidos a la pagina oficial de Krakken!</h1>
+            <h1 class="wow animate__animated animate__zoomIn">¡Bienvenidos a la pagina oficial de Krakken!</h1>
             <h2>COMICS | MANGAS | ANIME | FIGURAS | VIDEOJUEGOS</h2>
             <div>
             <p><a href="./cuentas.html">Crea tu cuenta</a></p>
@@ -52,10 +58,33 @@
         </nav>
         <!-- Inicio del Main -->
         <section class=primeraSeccion>
-            <h2 class="wow animate__animated animate__flipInX">Con tu compra de $3000 ARS o mas, tenes envio gratis!</h2>    
-            <img src="./eloy/WhatsApp Image 2022-05-18 at 3.46.55 PM.jpeg" alt="imagen comic">
-            <img src="./eloy/WhatsApp Image 2022-05-18 at 3.46.56 PM.jpeg" alt="imagen manga dragon ball">
-            <img src="./eloy/WhatsApp Image 2022-05-18 at 3.46.57 PM.jpeg" alt="imagen manga tokyo">
+            <h2 class="wow animate__animated animate__flipInX">Con tu compra de $4000 ARS o mas, tenes envio gratis</h2>    
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./eloy/WhatsApp Image 2022-05-18 at 3.46.55 PM.jpeg" class="d-block" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./eloy/WhatsApp Image 2022-05-18 at 3.46.56 PM.jpeg" class="d-block" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./eloy/WhatsApp Image 2022-05-18 at 3.46.57 PM.jpeg" class="d-block" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
         <section class="segundaSeccion">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/fShlVhCfHig"
@@ -83,10 +112,11 @@
         </aside>
         <form action="#" class="form">
             <h2>Deja tu mail y enterate de todas las novedades!</h2>
-            <div>
-                <input type="email" placeholder="Ej : Ricardo.Lopez@gmail.com">
-                <input type="submit">
-            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ricardolopez@gmail.com">
+                <button type="button" class="btn btn-secondary">Enviar</button>
+              </div>
         </form>
         <!-- Inicio del Footer -->
         <footer class="footer">
@@ -95,19 +125,18 @@
                 <li><a href="../pages/contacto.html">CONTACTO</a></li>
                 <li><a href="../pages/quienes-somos.html">QUIENES SOMOS</a></li>
             </ul>
-            <div class="botonesFooter">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
-            <div class=redes>
+                <div class="pagos">
+                <img src="./eloy/visa (1).png" alt="visa">
+                <img src="./eloy/american-express.png" alt="Amex">
+                <img src="./eloy/paypal.png" alt="paypal">
+                <img src="./eloy/maestro.png" alt="Maestro">
+                </div>
+            <div class="redes">
                 <a href="http://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter"></a></i>
                 <a href="http://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></i>
                 <a href="http://facebook.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
             </div>
         </footer>
-    </div>
     <script src="js/wow.min.js"></script>
               <script>
               new WOW().init();

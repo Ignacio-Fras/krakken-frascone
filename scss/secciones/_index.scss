@@ -33,15 +33,16 @@
       justify-content: center;
       align-items: center;
       border: solid 3px black;
+      text-decoration: none;
       border-radius: 0.5rem;
-      padding: 0.5rem;
-      margin: 0.5rem;
+      padding: 2rem;
+      margin: 1rem;
       max-width: 100px;
     
       &:hover{
         height: 40px;
         width: 100px;
-        padding: .7rem;
+        padding: 2.1rem;
         border: solid 3px black;
         border-radius: 10px;
       }
@@ -77,9 +78,11 @@
       animation-iteration-count: infinite;
       animation-duration: 10s;
       list-style: none;
-      margin: 1rem;
-      padding: 10px;
-      text-align: center;
+      margin:1rem;
+      padding: 20px 30px 20px 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border-radius: 10px;
       
   
@@ -136,7 +139,7 @@
     align-items: center;
     
     div{
-      @extend %estiloTitulos;
+      // @extend %estiloTitulos;
     }
 
     img {
@@ -180,6 +183,7 @@
     flex-wrap: wrap;
     margin-left: 1rem;
     text-align: center;
+    
   
     h2 {
       font-size: 30px;
@@ -205,6 +209,7 @@
       padding: 0.5rem;
       a{
         color: white;
+        text-decoration: none;
       }
   
       &:hover {
@@ -222,7 +227,7 @@
     flex-direction: column;
     align-items: center;
     min-height: 25vh;
-  
+    
     h2 {
       @extend %estiloTitulos;
     }
@@ -235,9 +240,13 @@
       padding: 0.5rem;
       margin: 1rem;
     }
-  
+  input{
+    margin:1rem;
+    padding: .5rem;
+    border-radius: 5px;
+  }
     div {
-      width: 600px;
+      width: 650px;
       border: solid 2px black;
       border-radius: 10px;
       background-image: linear-gradient(to bottom, rgb(133, 135, 233), rgb(125, 54, 240));
@@ -247,20 +256,26 @@
       padding: 1rem;
       margin: 1rem;
       background-color: rgb(50, 193, 205);
-    }
-  
-    input {
-      width: 300px;
-      height: 30px;
-      background-color: rgb(254, 255, 255);
-      text-align: center;
+    }  
+    .btn{
       margin: 1rem;
-      padding-left: 1rem;
-  
-      &[type="submit"]:hover {
-        background-color: rgb(146, 156, 243);
-      }
+      padding: 1rem;
+      background-color: rgb(195, 131, 224);
+
+    &:hover{
+        background-color:rgb(235, 111, 247);
+        color:black;
+        padding: 1rem;
+        margin: 1rem;
     }
+  }
+  .form-label{
+    background-color: rgb(190, 63, 240);
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: .5rem 2rem .5rem 2rem;
+    margin:1rem;
+  }
   }
   .footer {
     background-image: linear-gradient(to right, rgb(131, 86, 223), rgb(97, 102, 279), rgb(131, 86, 223));
@@ -274,6 +289,7 @@
   
     a {
       color: white;
+      text-decoration: none;
     }
   
     li {
@@ -289,7 +305,10 @@
         background-color: rgb(143, 79, 228);
       }
     }
-  
+    img{
+      max-width: 5rem;
+      padding-right: 1rem;
+    }
     i {
       padding: 1rem;
       font-size: 4rem;

@@ -3,8 +3,7 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
-  font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-  "Lucida Sans", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 @import './variables/extend';
 @import './variables/mixins';
@@ -88,11 +87,32 @@
   .form div {
     display: flex;
     flex-wrap: wrap;
-    max-width: 80%;
+    max-width: 88%;
     margin-left: 1rem;
   }
   iframe{
     max-width: 300px;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .botonesFooter{
+    display: flex;
+    flex-direction: row;
+  }
+  h3{
+    padding: 1rem;
+  }
+  .pagos{
+    display: flex;
+  }
+  .redes{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
   }
 }
 @media (max-width: 425px) {
@@ -153,6 +173,7 @@
 
     div {
       display: flex;
+      flex-direction: column;
       padding: 2rem;
       align-content: center;
       flex-wrap: wrap;
@@ -166,6 +187,27 @@
   .redes {
     display: flex;
     flex-direction: column;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .botonesFooter{
+    display: flex;
+    flex-direction: row;
+  }
+  h3{
+    padding: 1rem;
+  }
+  .pagos{
+    display: flex;
+  }
+  .redes{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
   }
 }
 @media (max-width: 375px) {
@@ -239,8 +281,24 @@
     display: none;
   }
 
-  .redes {
+  .footer{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .botonesFooter{
+    display: flex;
+    flex-direction: row;
+  }
+  .pagos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .redes{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
   }
 }
